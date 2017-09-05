@@ -20,7 +20,7 @@ const HitsList = (props)=> {
     <div>
       <div className={bemBlocks.item("results")}>
         <h2 className={bemBlocks.item("keyword")}dangerouslySetInnerHTML={{__html:source.title.replace(/,/g, '').replace(/'/g, '')}}></h2>
-          <a href={url}><h4 className={bemBlocks.item("lookup")}>Lookup Similar Disease on Disease Ontology</h4></a>
+          <a href={url}><h4 className={bemBlocks.item("lookup")}>Lookup Disease on Disease Ontology</h4></a>
       </div>
     </div>
   )
